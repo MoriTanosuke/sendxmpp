@@ -1,0 +1,16 @@
+INSTALL
+-------
+sendxmpp requires perl 5.x, Getopt::Long and Net::XMPP.
+
+$ tar xvfz sendxmpp-(version).tar.gz
+$ cd sendxmpp-(version)
+$ perl Makefile.PL
+$ make
+$ make install
+
+This will install under /usr/local; to install under another prefix, for exampl;e "/usr", do:
+
+$ perl Makefile.PL PREFIX=/usr
+
+instead.
+
